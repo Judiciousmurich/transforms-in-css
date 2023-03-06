@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>squares</title>
+    <style type="text/css">
+        div{
+            width: 100px;
+            height: 100px;
+            background: #173459;
+            color: #f8f9f9;
+            border: 5px solid #903C56;
+            transition-duration: 2s;
+        }
+        #translate:hover{
+            transform: translate(30px,40px);
+        }
+
+        #rotate:hover{
+            transform: rotate(-90deg);
+        }
+
+        #scale:hover{
+            transform: scale(.5);
+        }
+
+        #skew:hover{
+            transform:skew(30deg, 30deg);
+        }
+        </style>
+    </head>
+    <body>
+    <p>Tap elements to trigger the effects.</p>
+    <div id="translate">translate me!</div> 
+    <br>
+    <div id="rotate">Rotate me!</div> 
+    <br>
+    <div id="scale">Scale me!</div> 
+    <br>
+    <div id="skew">Skew me!</div> 
+    </body>
+    </html>
